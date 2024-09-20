@@ -8,19 +8,33 @@ $grid-gutter-width: 40px !default;
 $border-radius-base:  4px !default;
 $padding-base-vertical: 14px !default;
 
-$brand-primary: #FF9000 !default;
+$brand-primary: #C44536 !default;   // Vibrant red for primary elements
 
-$brand-white: #fff;
-$brand-black: #000;
-$brand-darker: #444;
-$brand-gray: #ccc;
-$brand-lighter: #e9e9e9;
-$brand-body-color: #818892;
-$brand-selection-color: #f9f6f0;
-$brand-overlay-color: #4c4a8a;
-$brand-bg-color: $brand-white;
+$brand-white: #fff;                // Standard white for contrast
+$brand-black: #000;                // Standard black for text
+$brand-darker: #1E1E1E;            // Darker shade for backgrounds or dark sections
+$brand-gray: #888;                 // Neutral gray for borders or secondary text
+$brand-lighter: #f2f2f2;           // Light gray for subtle backgrounds or hover effects
+$brand-body-color: #1E3A5F;        // Deep blue for text and links
+$brand-selection-color: #f5e8e5;   // Light complementary tone for text selection
+$brand-overlay-color: #4C4A8A;     // Soft muted blue for overlays or modals
+$brand-bg-color: $brand-white;     // Background color for most sections
 
-$brand-bg-dark: #2F3C4F;
+$brand-bg-dark: #1E1E1E; 
+
+// $brand-primary: #FF9000 !default;
+
+// $brand-white: #fff;
+// $brand-black: #000;
+// $brand-darker: #444;
+// $brand-gray: #ccc;
+// $brand-lighter: #e9e9e9;
+// $brand-body-color: #818892;
+// $brand-selection-color: #f9f6f0;
+// $brand-overlay-color: #4c4a8a;
+// $brand-bg-color: $brand-white;
+
+// $brand-bg-dark: #2F3C4F;
 
 $input-border-focus:  $brand-primary !default;
 $form-group-margin-bottom:       30px !default;
